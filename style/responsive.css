@@ -1,0 +1,607 @@
+@media screen and (max-width:1280px) {
+    .container {
+        padding: 0 0.2rem;
+    }
+
+    .description-images {
+        flex-wrap: wrap;
+        gap: 3.2rem;
+        justify-content: center;
+
+    }
+
+    .description-small-images {
+        flex-direction: row;
+    }
+
+    .big-img {
+        width: 95.2rem;
+        height: auto;
+    }
+
+    .platform_logos_block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3.2rem;
+    }
+
+
+}
+
+@media screen and (max-width:1256px) {
+
+
+    .sale {
+        height: 121.8rem;
+    }
+
+    .section-consoles {
+        flex-direction: column;
+        right: 8rem;
+    }
+
+    .xbox-container {
+        left: 0;
+    }
+
+    .playstation-container {
+        top: -5.5rem;
+    }
+
+    .sale_title {
+        position: relative;
+        left: 0;
+        max-width: 46rem;
+        margin: 1.5rem 0 0 0;
+
+    }
+
+    .sale-text {
+        max-width: 46rem;
+    }
+
+    .section-consoles {
+        top: 9.5rem;
+        left: 52.8rem
+    }
+}
+
+@media screen and (max-width:1090px) {
+
+    .hp-pc {
+        width: 46rem;
+        height: auto;
+    }
+
+
+    .hp-container-logos {
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        max-width: 95.2rem;
+        margin: 0 3.6rem;
+        padding: 0;
+    }
+
+    .intro {
+        height: 100rem;
+    }
+
+    .header_content {
+        height: 100rem;
+    }
+
+    .description-text {
+        max-width: 80rem;
+    }
+
+    .hp-description {
+        max-width: 46rem;
+        height: auto;
+    }
+
+    .cyberpunk-game-img {
+        max-width: 33.2rem;
+    }
+
+    .description-images img {
+        width: 100%;
+        min-height: 42.4rem;
+        overflow: hidden;
+    }
+}
+
+
+@media screen and (max-width: 988px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+
+    .xbox-background,
+    .playStation-background,
+    .xbox-container,
+    .playstation-container {
+        width: 38rem;
+        height: 37rem;
+    }
+
+    .xbox-x-img,
+    .playstation-5-img {
+        width: 24rem;
+        height: 27rem;
+    }
+
+    .sale_title {
+        font-size: 5rem;
+    }
+
+    .sale-text {
+        font-size: 1.6rem;
+    }
+
+
+    .form {
+        width: 40rem;
+        height: auto;
+        margin-top: 9.8rem;
+
+    }
+
+    @media screen and (max-width:962px) {
+
+        /* HP description */
+        .hp-pc {
+            width: 32.25rem;
+            height: 22.1rem;
+        }
+
+        .hp-description-heading {
+            font-size: 5rem;
+        }
+
+        .hp-description-text,
+        .hp-description-list {
+            font-size: 1.6rem;
+        }
+
+        .hp_icons {
+            width: 2.1rem;
+        }
+
+        /* Sale  */
+
+        .sale-box {
+            flex-direction: column-reverse;
+        }
+
+        .section-consoles {
+            position: static;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: 0.5rem;
+            margin-left: 0;
+
+        }
+
+        .sale_title {
+            text-align: center;
+        }
+
+        .sale-text,
+        .sale_title,
+        .sale-description,
+        .form,
+        .form-flex,
+        .send {
+            max-width: 100%;
+        }
+
+        .form-flex {
+            align-items: center;
+        }
+
+        .xbox-background,
+        .playStation-background,
+        .xbox-container,
+        .playstation-container {
+            width: 24.5rem;
+            height: 24.5rem;
+        }
+
+        .xbox-x-img,
+        .playstation-5-img {
+            width: 16.5rem;
+            height: 18rem;
+        }
+
+        .playstation-container {
+            top: 0;
+        }
+
+
+    }
+}
+
+@media screen and (max-width:845px) {
+    .description-small-images {
+        flex-direction: column;
+    }
+
+    .hp-flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hp-block {
+        flex-direction: column;
+    }
+
+
+
+    .hp-container-logos {
+        flex-direction: row;
+    }
+
+    .hp-logo {
+        width: 7rem;
+        height: auto;
+    }
+
+    .lines {
+        width: 8rem;
+        height: auto;
+    }
+
+    .hp-cyberpunk-logo {
+        width: 17.5rem;
+        height: 4.4rem;
+    }
+
+    .btn-hp-description {
+        transition: none;
+    }
+
+    .btn-hp-description:hover {
+        transform: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /*Banner  */
+    .banner {
+        width: 100%;
+    }
+
+    .banner_title {
+        font-size: 5rem;
+    }
+
+    /* Menu */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .list_img {
+        transition: none;
+    }
+
+    .list_img:hover {
+        transform: none;
+    }
+
+    /* Sale */
+
+    .form,
+    .send,
+    .sale-box {
+        max-width: 100% !important;
+    }
+
+    /* GAME SECTION */
+    .cyberpunk-game-flex {
+        flex-direction: column;
+    }
+
+    .cyberpunk-game-heading {
+        font-size: 5rem;
+    }
+
+    .cyberpunk-game-img {
+        max-width: 100%;
+        height: 40rem;
+    }
+
+    .cyberpunk-game-description {
+        padding-left: 1.2rem;
+    }
+
+
+
+}
+
+@media screen and (max-width:660px) {
+    .description-heading {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .form {
+        margin-top: 7rem;
+    }
+
+    .sale-img {
+        margin-top: 0.6rem;
+    }
+
+    .sale-title {
+        font-size: 3rem;
+        font-weight: 400px;
+    }
+
+    .section-consoles {
+        margin-top: 0;
+    }
+
+    .xbox-container,
+    .playstation-container {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 533px) {
+    .container {
+        padding: 0 1.2rem;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .banner_content {
+        padding: 30px 12px 30px 12px;
+    }
+
+    .banner_title {
+        text-align: center;
+
+    }
+
+    .banner_button {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .list {
+        gap: 3rem;
+    }
+
+    .list_img {
+        width: 4rem;
+        height: auto;
+    }
+
+    /* Sale block */
+    .sale_title {
+        text-align: left;
+    }
+
+    .sale-img {
+        width: 6.2rem;
+        height: 6.2rem;
+    }
+
+    .xbox-background,
+    .playStation-background,
+    .xbox-container,
+    .playstation-container {
+        width: 13.2rem;
+        height: 13rem;
+    }
+
+    .xbox-x-img,
+    .playstation-5-img {
+        width: 8rem;
+        height: 10rem;
+    }
+
+    .hp-description-heading {
+        font-size: 3rem;
+    }
+
+    .hp-container-logos {
+        gap: 0.5rem;
+    }
+
+    .hp-logo {
+        width: 4.3rem;
+        height: 4.4rem;
+    }
+
+
+    .lines {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .hp-pc {
+        width: 29.6rem;
+        height: 20.4rem;
+    }
+
+    /* footer */
+    .footer-logos,
+    .footer-container-text {
+        flex-direction: column;
+    }
+
+    .footer-container-text {
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+
+    /* game */
+
+    .cyberpunk-game-heading {
+        font-size: 3rem;
+        margin-top: 1.2rem;
+    }
+
+    .cyberpunk-list {
+        font-size: 16px;
+    }
+
+    .platform_logos_block {
+        column-gap: 5.4rem;
+        row-gap: 5rem;
+    }
+
+    .set-heading {
+        font-size: 2rem;
+    }
+
+    .list-icon {
+        width: 1.8rem;
+    }
+
+    .cyberpunk-list li {
+        padding-bottom: 1.8rem;
+    }
+
+    .platform {
+        margin-top: 2.4rem;
+    }
+
+    /* HP */
+    .hp-flex-container {
+        align-items: normal;
+
+    }
+
+}
+
+@media screen and (max-width:420px) {
+
+
+    .hp-description {
+        min-width: 29.6rem;
+    }
+
+    .hp-cyberpunk-logo {
+        width: 17.5rem;
+        height: 4.3rem;
+    }
+
+    .list {
+        gap: 2.8rem;
+    }
+
+
+    .list_img {
+        width: 2.5rem;
+        height: auto;
+    }
+
+
+
+}
+
+@media screen and (max-width:320px) {
+    .logo {
+        width: 20rem;
+        height: 5rem;
+    }
+
+    .list {
+        margin-top: 0.7rem;
+    }
+
+    .banner {
+        bottom: 23.9rem;
+    }
+
+    .banner_button {
+        margin: 0 28px;
+        width: 24rem;
+        height: 5.9rem;
+    }
+
+    .intro {
+        height: 71.3rem;
+    }
+
+    /* Description */
+    .description-text {
+        margin-top: 10.3rem;
+    }
+
+    .description-text {
+        margin-top: 1.8rem;
+        font-size: 1.6rem;
+    }
+
+    .description-small-images {
+        width: 32rem;
+        height: 19.6rem;
+        /* overflow: inherit; */
+    }
+
+    .big-img {
+        height: 42.4rem;
+    }
+
+    /* Sale */
+    .sale {
+        margin-top: 7rem;
+    }
+
+    .section-consoles {
+        margin-top: -2rem;
+    }
+
+    .sale_title {
+        margin-bottom: 0;
+    }
+
+    .form {
+        margin-top: 6.4rem;
+    }
+
+    /* HP BLOCK */
+    .hp-content {
+        margin-top: 8rem;
+    }
+
+    .hp-description-heading {
+        font-size: 3rem;
+        letter-spacing: -1px;
+    }
+
+    .hp-description-text {
+        margin-top: 2rem;
+    }
+
+    .hp-description-list li {
+        padding-bottom: 1.8rem;
+    }
+
+    /* Game block */
+    .cyberpunk-game-img {
+        width: 100%;
+        height: 18.5rem;
+    }
+
+
+}

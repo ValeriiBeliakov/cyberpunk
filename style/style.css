@@ -1,0 +1,677 @@
+/* Header */
+/* #171717
+#555 
+rgba(248, 242, 0, 1)
+*/
+
+@font-face {
+    font-family: 'Archangelsk';
+    src: url('../fonts/Archangelsk.eot');
+    src: local('Archangelsk'),
+        url('../Archangelsk.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Archangelsk.woff') format('woff'),
+        url('../fonts/archangelsk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.intro {
+    background: url(../img/main.jpg)center no-repeat;
+    width: 100%;
+    height: 100rem;
+    background-size: cover;
+}
+
+/*Блок Header*/
+.header_content {
+    position: absolute;
+    inset: 0;
+    height: 100rem;
+}
+
+.banner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 62.4rem;
+    height: 36.9rem;
+    background-color: #F8F200;
+    clip-path: polygon(7.8% 0, 100% 0, 100% 86.5%, 92.2% 100%, 0 100%, 0 13.5%);
+}
+
+.banner_content {
+    padding: 7rem;
+}
+
+.banner_title {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    line-height: 1.2;
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+.banner_button {
+    width: 27rem;
+    height: 7.8rem;
+    font-size: 2.4rem;
+    cursor: pointer;
+    margin-top: 12.5px;
+    color: #F8F200;
+    background-color: #000000;
+    transition: 0.3s ease-out;
+}
+
+.banner_button:hover {
+    transform: scale(1.1)
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+}
+
+/* .list_item {
+    padding-left: 4rem;
+} */
+
+
+.list_img {
+    transition: 0.2s ease-in;
+}
+
+/* .list_last_child {
+    padding-left: 0;
+} */
+
+
+.list_img:hover {
+    transform: scale(1.2)
+}
+
+/* SEcond page  */
+.description_text {
+    margin-top: 70px;
+}
+
+.description-heading {
+    font-size: 6.2rem;
+    color: #000000;
+    line-height: 1.4;
+    letter-spacing: 10px;
+
+}
+
+
+.description-text {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin: 2.5rem 0 7rem 0;
+}
+
+.description-text span {
+    color: aqua;
+}
+
+.description-images img {
+    max-width: 92rem;
+    height: auto;
+}
+
+.description-images {
+    display: flex;
+    margin-top: 6rem;
+    column-gap: 3.2rem;
+}
+
+.description-small-images {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+
+}
+
+.small-img {
+    width: 46rem;
+    height: 19.6rem;
+    clip-path: polygon(7.8% 0, 100% 0, 100% 86.5%, 92.2% 100%, 0 100%, 0 13.5%);
+}
+
+
+.big-img {
+    width: 78.8rem;
+    height: 42.4rem;
+    clip-path: polygon(7.8% 0, 100% 0, 100% 86.5%, 92.2% 100%, 0 100%, 0 13.5%);
+}
+
+/* Sectio Sale */
+.sale {
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 7rem;
+    min-height: 88rem;
+}
+
+
+
+.sale-img {
+    margin-top: 1.5rem;
+}
+
+.sale-content {
+    position: relative;
+}
+
+.sale-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sale_title {
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 4px;
+    font-size: 6.2rem;
+    top: 0;
+    left: 13.3rem;
+    margin: 7rem 0 4rem 3.2rem;
+}
+
+.sale-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: #fff;
+    max-width: 95.2rem;
+    margin: 2.5rem 0;
+}
+
+.sale-text span {
+    color: aqua;
+}
+
+/* form */
+.form-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    max-width: 46rem;
+    height: auto;
+    margin-top: 9.8rem;
+}
+
+
+
+.form-group {
+    position: relative;
+    margin-top: 3.5rem;
+}
+
+.form-input {
+    position: relative;
+    outline: none;
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(119, 119, 119, 1);
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: left;
+    font-family: "Rubik", sans-serif;
+    background-color: transparent;
+}
+
+.form_label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.1rem;
+    letter-spacing: 0em;
+    text-align: left;
+    transition: all 3s;
+}
+
+.form-input:focus~.form_label,
+.form-input:not(:placeholder-shown)~.form_label {
+    top: -18px;
+}
+
+.send {
+    margin-top: 3.5rem;
+    max-width: 46rem;
+    height: 12rem;
+    border: 2px dashed #777777;
+
+}
+
+.send-input {
+    display: none;
+}
+
+.sende_label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 3.9rem;
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    font-family: "Rubik", sans-serif;
+    line-height: 1.5;
+}
+
+.p_label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    letter-spacing: 0em;
+}
+
+.button {
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.sale-button {
+    width: 19.2rem;
+    height: 5.9rem;
+    background-color: rgba(248, 242, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    border: none;
+    font-size: 1.8rem;
+}
+
+.checkbox_input {
+    display: none;
+}
+
+.castum_checkbox {
+    position: relative;
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: transparent;
+    border: 1px solid #777777;
+    transition: 0.3s ease-in;
+}
+
+.checkbox_text {
+    position: relative;
+    bottom: 0.3rem;
+    margin-left: 3px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.castum_checkbox::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    background-image: url(../img/check.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+    transition: 0.3s ease-in;
+}
+
+.checkbox_input:checked+.castum_checkbox::before {
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.section-consoles {
+    position: absolute;
+    top: 25.7rem;
+    right: 0;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.xbox-container,
+.playstation-container {
+    position: relative;
+    max-width: 46rem;
+    height: 45.6rem;
+    margin-top: 2rem;
+}
+
+
+.xbox-background,
+.playStation-background {
+    width: 46rem;
+    height: 45.6rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.xbox-background {
+    background-image: url(../img/xbox-background.svg);
+}
+
+.playStation-background {
+    background-image: url(../img/playstation-background.svg);
+}
+
+.xbox-x-img,
+.playstation-5-img {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.xbox-container {
+    left: 14.5rem;
+    z-index: 1;
+}
+
+
+
+/********************* HP container ******************/
+.hp-container {
+    background-color: rgba(248, 242, 0, 1);
+    padding-bottom: 8rem;
+}
+
+.hp-content {
+    margin-top: 7rem;
+}
+
+.hp-flex-container {
+    display: flex;
+    margin-top: 7rem;
+    gap: 3.2rem;
+
+}
+
+
+.hp-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.6rem;
+}
+
+.hp-pc {
+    width: 62.4rem;
+    height: 43rem;
+}
+
+
+.hp-container-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.hp-logo {
+    height: 8rem;
+    width: 8rem;
+}
+
+.lines {
+    width: 9rem;
+    height: 9rem;
+}
+
+.hp-cyberpunk-logo {
+    width: 32rem;
+    height: 8rem;
+}
+
+.hp-description {
+    max-width: 62.4rem;
+}
+
+.hp-description-heading {
+    font-weight: 400;
+    margin: 0;
+    font-family: "Archangelsk";
+    font-size: 6.2rem;
+    color: #000000;
+}
+
+.hp-description-text {
+    font-weight: 400px;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin: 2.5rem 0 2.9rem 0;
+}
+
+.hp-description-list {
+    list-style: none;
+    margin-bottom: 4rem;
+
+}
+
+.hp-description-list li {
+    display: flex;
+    gap: 1.2rem;
+    margin-bottom: 1.6rem;
+    align-items: center;
+}
+
+.hp-description-list li:last-child {
+    margin-bottom: 0;
+}
+
+.hp-description-list li span {
+    font-size: 1.8rem;
+    width: 400px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.btn-hp-description {
+    width: 19.4rem;
+    height: 5.9rem;
+    font-size: 1.8rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(248, 242, 0, 1);
+}
+
+/* Cyberpunk game */
+.cyberpunk-game {
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.castum-container {
+    max-width: 192rem;
+    margin: 0 auto;
+}
+
+.cyberpunk-game-flex {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 0;
+}
+
+.cyberpunk-game-img {
+    background: url(../img/cyberpunk-game.svg) no-repeat;
+    width: 94.4rem;
+    height: auto;
+    background-size: cover;
+}
+
+
+
+.cyberpunk-game-heading {
+    color: #fff;
+    margin-top: 7rem;
+    line-height: 1.2;
+    font-size: 6.2rem;
+}
+
+.set-heading {
+    font-size: 2.4rem;
+    color: aqua;
+    margin: 2.5rem 0 1.5rem 0;
+}
+
+.cyberpunk-list {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 7rem;
+}
+
+.cyberpunk-list li {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 1.9rem;
+}
+
+.cyberpunk-list li:last-child {
+    margin-bottom: 0;
+}
+
+.cyberpunk-list li span {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.platform {
+    width: 31.9rem;
+    height: 18.6rem;
+    margin-bottom: 7rem;
+
+}
+
+.platform_logos_block {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8rem;
+    row-gap: 4.8rem;
+    margin: 2rem 0 6rem 0;
+
+}
+
+.platform_img {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pc-img {
+    width: 5.6rem;
+    height: 3.2rem;
+    background-image: url(../img/pc-icon.svg)
+}
+
+.xbox-one-img {
+    width: 17.8rem;
+    height: 3.6rem;
+    background-image: url(../img/xbox-one.svg)
+}
+
+.stadia-img {
+    width: 5.8rem;
+    height: 5rem;
+    background-image: url(../img/stadia.svg)
+}
+
+.ps4-img {
+    width: 16.8rem;
+    height: 3.519rem;
+    background-image: url(../img/ps4.svg)
+}
+
+/* ************************ Footer *****************************/
+.footer {
+    width: 100%;
+    height: 10rem;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 0;
+}
+
+.footer-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
+.footer-logos-cyberpunk {
+    width: 29.6rem;
+    height: 7.4rem;
+}
+
+.footer-logos-parrot {
+    width: 17.2rem;
+    height: 7.4rem;
+}
+
+.footer-container-text {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.footer-text {
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+}
+
+.footer-end {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
