@@ -147,16 +147,16 @@ rgba(248, 242, 0, 1)
 
 }
 
-.small-img {
+.small_img {
     width: 46rem;
-    height: 19.6rem;
+    height: auto;
     clip-path: polygon(7.8% 0, 100% 0, 100% 86.5%, 92.2% 100%, 0 100%, 0 13.5%);
 }
 
 
-.big-img {
+.big_img {
     width: 78.8rem;
-    height: 42.4rem;
+    height: auto;
     clip-path: polygon(7.8% 0, 100% 0, 100% 86.5%, 92.2% 100%, 0 100%, 0 13.5%);
 }
 

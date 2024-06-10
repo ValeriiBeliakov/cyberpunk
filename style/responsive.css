@@ -14,7 +14,7 @@
         flex-direction: row;
     }
 
-    .big-img {
+    .big_img {
         width: 95.2rem;
         height: auto;
     }
@@ -110,7 +110,7 @@
 
     .description-images img {
         width: 100%;
-        min-height: 42.4rem;
+        max-height: 40rem;
         overflow: hidden;
     }
 }
@@ -451,6 +451,7 @@
 
 @media screen and (max-width:480px) {
 
+    .description-small-images {}
 
     /* game */
 
