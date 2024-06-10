@@ -410,6 +410,6 @@ body {
 }
 
 .grains {
-    max-width: 100%;
+    min-width: 100%;
     height: auto;
 }
