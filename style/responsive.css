@@ -273,6 +273,11 @@
 
 @media screen and (max-width:768px) {
 
+    .block-grains,
+    .block-bot-grains {
+        height: 5rem;
+    }
+
     /*Banner  */
     .banner {
         width: 100%;
